@@ -24,3 +24,57 @@
     color: rgb(221, 9, 9);
     transition: .4s;
 }
+/* banner section */
+.banner-section{
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+
+}
+.digital-banner{
+    width: 100%;
+    margin: 0 auto;
+}
+.title{
+    font-size: 70px;
+    color: white;
+    
+}
+.title-digital{
+    color: red;
+
+}
+.despription{
+    font-size: 20px;
+    color: aliceblue;
+    padding: 15px;
+
+}
+/* button sections */
+
+
+/* .buttons{
+    padding: 10px;
+} */
+.btn{
+    padding: 15px 35px;
+    font-size: 18px;
+    border: none;
+    margin: 5px;
+    border-radius: 15px;
+}
+.btn-more{
+    background-color: red;
+    color: antiquewhite;
+}
+.btn:hover{
+    background-color: brown;
+    cursor: pointer;
+    transition: 0.3s;
+}
